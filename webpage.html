@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>page1</title>
+<style>
+*{box-sizing:border-box;
+}
+body{
+    font-family:arial,helvetica,sans-serif;
+    margin:0;
+}
+.header{
+    padding:80px;
+    text-align:center;
+    background:lightpink;
+    color:black;
+}
+.header h1{
+    font-size:40px;
+}
+    ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        background-color:black;
+           }
+    li{
+        float:left;
+    }
+    li a{
+        display:block;
+        color:lightpink;
+        text-align:center;
+        padding:10px;
+        text decoration:none;
+       }
+    li a:hover{
+        background-color:white;
+       }
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.side{
+    flex:30%
+    background-color:white;
+}
+.main{
+    flex:70%;
+    background-color:white;
+    padding:20px;
+}
+.fakeimg{
+    background-color:#aaa;
+    width:100%;
+    padding:20px;
+}
+.footer{
+    background-color:lightpink;
+    padding:18px;
+    text-align:center;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+	<h1><i>Sonam Kapoor</i></h1>
+</div>
+ <ul>
+
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a><l/i>
+        <li><a href="ww.html">Wedding photos </a></li>
+        <li style="float:right"><a href="#">CONTACT</a></li>
+    </ul>
+<div class="row">
+  <div class="side">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div><img src="sonam.jpg" width="100px"height="100px"></div>
+      <h3>More Text</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, May 3, 2018</h5>
+      <div><img src="sonam1.jpg"></div><br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, May 3, 2018</h5>
+      <div><img src="sonam2.jpg"></div>
+  </div>
+</div>
+<div class="footer">
+    <p> myportfolio.com</p>
+    <p> wwwmyportfolio@gmail.com</p>
+</div>
+</body>
+</html>
